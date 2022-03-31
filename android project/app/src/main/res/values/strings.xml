@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KeyBlocker</string>
+    <string name="BackgroundApps">com.android.CustomKeyboard\n com.google.messages \n com.google.app.search</string>
+</resources>
