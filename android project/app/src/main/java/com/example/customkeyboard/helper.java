@@ -62,5 +62,8 @@ class helpers {
         }
         return context.getString(R.string.BackgroundApps);
     }
+    public String ReturnKey(String obj){
+        return obj;
+    }
 
 }

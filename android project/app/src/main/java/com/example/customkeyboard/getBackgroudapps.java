@@ -8,6 +8,8 @@ import android.inputmethodservice.Keyboard;
 import android.inputmethodservice.KeyboardView;
 
 public class getBackgroudapps {
+    static helpers Hs = new helpers();
+
 
     public static String GetApps(Context context){
         helpers hr = new helpers();
@@ -26,6 +28,7 @@ public class getBackgroudapps {
                 Log.d("Invalid Application", "Permission Denied");
             }
            else if(k == 2){
+               Hs.ReturnKey(i);
                 Log.d("Permission Provided to", i);
 
             }
